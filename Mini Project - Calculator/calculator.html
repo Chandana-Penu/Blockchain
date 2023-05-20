@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Calculator</title>
+    <script type="text/javascript" src="calculator.js">
+    </script>
+</head>
+<body>
+    <center><h1>Calculator</h1></center>
+    <div class= "formstyle">  
+    <form name = "form1">  
+    <center><input type="text" class="textview" id="DisplayID"></center>
+    <!-- <br> -->
+    <table cellspacing="10px" align="center">
+        <!-- <thead>
+            <td>
+                <input type="text" id='result' class="screen">
+                <td colspan="3"><input type='text' id='result' class ='screen' style="text-align: right;"></td>
+            </td>
+        </thead> -->
+        <!-- <thead>
+            <tr colspan="4">
+                <td><input type="text" class="textview"></td>
+            </tr>
+        </thead> -->
+        <tbody>
+            <tr>
+                <td>
+                    <input type="button" value="1" class="displayNumbers" onclick="displayN(value)">
+                </td>
+                <td>
+                    <input type="button" value="2" class="displayNumbers" onclick="displayN(value)">
+                </td>
+                <td>
+                    <input type="button" value="3" class="displayNumbers" onclick="displayN(value)">
+                </td>
+                <td>
+                    <input type="button" value="+" class="displayNumbers" onclick="displayN(value)">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <input type="button" value="4" class="displayNumbers" onclick="displayN(value)">
+                </td>
+                <td>
+                    <input type="button" value="5" class="displayNumbers" onclick="displayN(value)">
+                </td>
+                <td>
+                    <input type="button" value="6" class="displayNumbers" onclick="displayN(value)">
+                </td>
+                <td>
+                    <input type="button" value="-" class="displayNumbers" onclick="displayN(value)">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <input type="button" value="7" class="displayNumbers" onclick="displayN(value)">
+                </td>
+                <td>
+                    <input type="button" value="8" class="displayNumbers" onclick="displayN(value)">
+                </td>
+                <td>
+                    <input type="button" value="9" class="displayNumbers" onclick="displayN(value)">
+                </td>
+                <td>
+                    <input type="button" value="*" class="displayNumbers" onclick="displayN(value)">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <input type="button" value="." class="displayNumbers" onclick="displayN(value)">
+                </td>
+                <td>
+                    <input type="button" value="0" class="displayNumbers" onclick="displayN(value)">
+                </td>
+                <td>
+                    <input type="button" value="/" class="displayNumbers" onclick="displayN(value)">
+                </td>
+                <td>
+                    <input type="button" value="=" class="displayNumbers" onclick="result()">
+                </td>
+            </tr>
+
+        </tbody>
+    </table>
+    <center><input type="button" value="Clear Display" id="ClearDisplayID" class="textview1" onclick="ClearDisplay()"></center>
+    </form>
+    </div>
+</body>
+</html>
